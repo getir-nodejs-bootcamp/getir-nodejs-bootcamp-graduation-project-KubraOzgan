@@ -57,7 +57,7 @@ Response payload should have 3 main fields.
 }
 ```
 ## Return
-| code | Status code | Message |
+| code | Status code | msg     |
 | ---- | ----------- | ------- |
 | 0    |    200      | Success |
 | 1    |    500      |   No record under specified conditions!      |
