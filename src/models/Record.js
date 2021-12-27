@@ -10,4 +10,4 @@ const RecordSchema = new Mongoose.Schema(
     { timestamps: true, versionKey: false }
 );
 
-module.exports = Mongoose.model("record", RecordSchema);
+module.exports = Mongoose.model("record", RecordSchema); 
