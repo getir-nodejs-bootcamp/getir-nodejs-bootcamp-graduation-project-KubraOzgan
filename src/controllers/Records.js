@@ -9,7 +9,7 @@ const listRecords = (req, res, next) => {
             res.status(httpStatus.OK).send({ code: 0, msg: "Success", records: recordsList}); 
         })
       .catch((e) => next(new ApiError(e?.message)));
-      
+       
 }; 
 module.exports = {
     listRecords, 
