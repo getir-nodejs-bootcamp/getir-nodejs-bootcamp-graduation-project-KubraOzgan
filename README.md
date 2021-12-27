@@ -8,9 +8,9 @@ The request payload will include a JSON with 4 fields.
 - “minCount” and “maxCount” are for filtering the data. Sum of the “count” array in the documents should be between “minCount” and “maxCount”.
 
 | Parameters | Description |
-| ------ | ----------- |
-| startDate   | Date (YYYY-MM-DD) |
-| endDate | Date (YYYY-MM-DD) |
+| ---------- | ----------- |
+| startDate  | Date (YYYY-MM-DD) |
+| endDate    | Date (YYYY-MM-DD) |
 | minCount    | number |
 | maxCount    | number |
 ### Sample Request Payload
