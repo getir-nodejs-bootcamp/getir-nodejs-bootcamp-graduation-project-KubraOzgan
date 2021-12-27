@@ -62,3 +62,7 @@ Response payload should have 3 main fields.
 | 0    |    200      | Success |
 | 1    |    500      |   No record under specified conditions!      |
 | -1   |    404      |   Not found the request you're looking for.      |
+
+## Deployment
+- Heroku: https://kubraozgan-getir-task.herokuapp.com
+- Postman Collection: https://www.getpostman.com/collections/6aaad93af0f34c5d598d
