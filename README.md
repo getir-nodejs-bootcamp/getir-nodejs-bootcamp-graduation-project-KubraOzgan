@@ -56,3 +56,9 @@ Response payload should have 3 main fields.
     ]
 }
 ```
+##Return
+| code | Status code | Message |
+| ---- | ----------- | ------- |
+| 0    |    200      | Success |
+| 1    |    500      |   No record under specified conditions!      |
+| -1   |    404      |   Not found the request you're looking for.      |
