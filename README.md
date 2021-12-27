@@ -14,13 +14,14 @@ The request payload will include a JSON with 4 fields.
 | minCount    | number |
 | maxCount    | number |
 ### Sample Request Payload
+```jsx
 {
   "startDate": "2016-05-01",
   "endDate": "2017-01-07",
   "minCount": 2000,
   "maxCount": 2013
 }
-
+```
 ## Response Payload
 Response payload should have 3 main fields.
 - “code” is for status of the request. 0 means success. Other values may be used for errors that you define.
