@@ -7,4 +7,4 @@ const router = express.Router();
 
 router.route("/").post(validate(schemas.validateReq, "body"), Records.listRecords);
 
-module.exports = router;
+module.exports = router; 
