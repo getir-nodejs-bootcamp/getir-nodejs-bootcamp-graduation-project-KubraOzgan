@@ -25,4 +25,4 @@ describe('Unit test', () => {
         const result = await listRecords.list(body);
         expect(result).toEqual(record);
     });
-});
+}); 
