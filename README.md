@@ -28,6 +28,7 @@ Response payload should have 3 main fields.
 - “msg” is for description of the code. You can set it to “success” for successful requests. For unsuccessful requests, you should use explanatory messages.
 - “records” will include all the filtered items according to the request. This array should include items of “key”, “createdAt” and “totalCount” which is the sum of the “counts” array in the document.
 ### Sample Response Payload
+```jsx
 {
     "code": 0,
     "msg": "Success",
@@ -54,3 +55,4 @@ Response payload should have 3 main fields.
         }
     ]
 }
+```
