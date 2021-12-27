@@ -33,4 +33,4 @@ const list = (body) => {
 
 module.exports = {
     list,
-}
+} 
