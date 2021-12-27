@@ -6,4 +6,4 @@ module.exports = (error, req, res, next) => { //Handling error
         msg : error.message || "Internal Server Error!",
       
     });
-  };
+  }; 
